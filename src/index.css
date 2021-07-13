@@ -11,3 +11,40 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.container {
+  margin: 0 auto;
+  max-width: 80%;
+}
+
+.navbar {
+  background-color: cyan;
+}
+
+.navbar > ul{
+  list-style-type: none;
+  overflow: hidden;
+  display: flex;
+  justify-content:left;
+}
+
+.nav-links > a {
+    display: block;
+    text-align: center;
+    color:rgb(24, 48, 48);
+    padding: 15px 25px;
+    text-decoration: none; 
+ }
+
+.nav-links a:hover {
+    background-color: rgb(160, 187, 187);
+}
+
+.song-add{
+  display: flex;
+  justify-content: center;
+}
+
+.song-header {
+  background-color:darkkhaki;
+}
